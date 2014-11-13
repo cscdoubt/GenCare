@@ -1,0 +1,2378 @@
+[ 2014-11-02T21:46:35+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.042008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.042148s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.101654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101917s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.017049s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006651s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.017888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044411s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007620s ]
+
+[ 2014-11-02T21:46:36+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002471s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023459s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001553s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001401s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001276s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2014-11-02T21:46:36+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:46:37+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022482s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001423s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2014-11-02T21:46:37+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:46:40+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000609s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012872s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000554s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000482s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004342s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002645s ]
+
+[ 2014-11-02T21:46:40+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:47:03+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000470s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000408s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002495s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2014-11-02T21:47:03+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:48:05+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003584s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020708s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002047s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2014-11-02T21:48:06+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:48:08+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.032838s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.006431s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.023641s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:48:09+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.858267s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.629791s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002768s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002894s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.065085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002285s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2014-11-02T21:48:09+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003087s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005511s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004565s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000411s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:48:13+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000896s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2014-11-02T21:48:13+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:48:15+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000562s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013973s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000586s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-11-02T21:48:16+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:48:34+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001999s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2014-11-02T21:48:34+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:49:05+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002264s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001569s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001551s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2014-11-02T21:49:06+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:49:10+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006176s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.005197s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000433s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:49:11+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.631920s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.666652s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030866s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001351s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007602s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2014-11-02T21:50:10+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001680s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017689s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000472s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2014-11-02T21:50:10+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:13+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.618791s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.755748s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003994s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001462s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002123s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001153s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2014-11-02T21:50:13+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001731s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016516s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000494s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001801s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005033s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2014-11-02T21:50:13+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:15+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002784s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.617804s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.821984s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003928s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004031s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037419s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002270s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002163s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009093s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2014-11-02T21:50:17+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018282s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000758s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002128s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2014-11-02T21:50:17+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:18+08:00 ] 127.0.0.1 /hospital/index.php?s=/Customer/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `hosp_info` [ RunTime:0.044974s ]
+SQL: SELECT * FROM `hosp_info` WHERE ( `hosp_id` = 1 ) LIMIT 1   [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index:  page D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 30 行.
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 33 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 34 行.
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 45 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 46 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004107s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004221s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042596s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003099s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002145s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002066s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009384s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002436s ]
+
+[ 2014-11-02T21:50:18+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:18+08:00 ] 127.0.0.1 /hospital/index.php?s=/Customer/customerList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004739s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004556s ]
+SQL: SHOW COLUMNS FROM `hosp_info` [ RunTime:0.006319s ]
+SQL: SELECT * FROM `hosp_info` WHERE ( `hosp_id` = 1 ) LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index:  page D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 63 行.
+
+[ 2014-11-02T21:50:21+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.965108s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.687477s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.035807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035939s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002228s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002866s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002025s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009218s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002441s ]
+
+[ 2014-11-02T21:50:22+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001754s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001868s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016503s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000469s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2014-11-02T21:50:22+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:23+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003718s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002337s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002101s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002082s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009186s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002514s ]
+
+[ 2014-11-02T21:50:23+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:29+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001318s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011260s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000472s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005066s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002464s ]
+
+[ 2014-11-02T21:50:29+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:33+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003327s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021350s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002445s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001984s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2014-11-02T21:50:33+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:36+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005964s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004674s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000416s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:50:36+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000412s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2014-11-02T21:50:36+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:39+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001342s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000516s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001801s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000305s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003848s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2014-11-02T21:50:39+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005719s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004741s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000427s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:50:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003744s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003849s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026362s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002127s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002066s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2014-11-02T21:50:40+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:42+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000451s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000571s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-11-02T21:50:42+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:45+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006369s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.006332s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000519s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:50:45+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016663s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000494s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001718s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003679s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002487s ]
+
+[ 2014-11-02T21:50:45+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:47+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020863s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2014-11-02T21:50:47+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:50:49+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006096s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004763s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000427s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:50:49+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017816s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000468s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-11-02T21:50:50+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:28+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003481s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002960s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010279s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2014-11-02T21:51:29+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:29+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002156s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016992s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001573s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002095s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006645s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2014-11-02T21:51:29+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:31+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006034s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004850s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000457s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:51:31+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001712s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000477s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001723s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2014-11-02T21:51:31+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:49+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000444s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010985s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001881s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-11-02T21:51:49+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:51+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005704s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004713s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000429s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:51:51+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001797s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001902s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000655s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001764s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000296s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-11-02T21:51:51+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:51:59+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002824s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002979s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022464s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002236s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002211s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009553s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2014-11-02T21:51:59+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:52:00+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002910s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020678s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002181s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001981s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2014-11-02T21:52:00+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:52:45+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000533s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001869s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2014-11-02T21:52:45+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:52:46+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007300s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000412s ]
+
+[ 2014-11-02T21:52:47+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005718s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004642s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000423s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:52:47+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021675s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001152s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002480s ]
+
+[ 2014-11-02T21:52:48+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:52:50+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002664s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002179s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001984s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008701s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2014-11-02T21:52:50+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:55:11+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002177s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002286s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015759s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001353s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005383s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2014-11-02T21:55:11+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:55:14+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005878s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004675s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000473s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:55:15+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.650829s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.744226s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003084s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003183s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030498s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001995s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009016s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002486s ]
+
+[ 2014-11-02T21:55:32+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001729s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000414s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001944s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-11-02T21:55:32+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:55:33+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001425s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015030s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002410s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002039s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009666s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2014-11-02T21:55:33+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:55:34+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006046s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.005398s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000436s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:55:34+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001731s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001845s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017527s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002261s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002121s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2014-11-02T21:55:34+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:55:35+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000447s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012848s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000513s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000431s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002014s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-11-02T21:55:35+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:58:52+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002298s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015796s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006331s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2014-11-02T21:58:52+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:23+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003033s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003158s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026122s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002206s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002165s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009025s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002543s ]
+
+[ 2014-11-02T21:59:23+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:24+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003170s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020164s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002205s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001982s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2014-11-02T21:59:25+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:26+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005924s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004931s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000453s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:59:27+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003764s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025746s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002195s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002105s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001987s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009590s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002823s ]
+
+[ 2014-11-02T21:59:27+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:29+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002258s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018357s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001428s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002214s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007878s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002514s ]
+
+[ 2014-11-02T21:59:29+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:31+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003196s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006212s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004699s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000428s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T21:59:31+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003474s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003580s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026206s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002353s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001998s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2014-11-02T21:59:31+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:34+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004314s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026798s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002283s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002156s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009341s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002468s ]
+
+[ 2014-11-02T21:59:34+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:37+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003263s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.710341s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.633082s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004372s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.035206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035328s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002246s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001992s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002654s ]
+
+[ 2014-11-02T21:59:37+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003960s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003894s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004123s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002491s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003281s ]
+
+[ 2014-11-02T21:59:37+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Query/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: select max(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.631145s ]
+SQL: select min(discharge_date_time) as discharge_date_time from medicare_charge where hosp_id = 1 [ RunTime:0.799883s ]
+NOTIC: [8] Undefined variable: hospital D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\QueryAction.class.php 第 49 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004252s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004419s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: patient_id D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 108 行.
+NOTIC: [8] Undefined variable: id_no D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 116 行.
+NOTIC: [8] Undefined variable: admission_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 130 行.
+NOTIC: [8] Undefined variable: discharge_date_time D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 141 行.
+NOTIC: [8] Undefined variable: chargeList D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 162 行.
+NOTIC: [8] Undefined variable: warn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Runtime\Cache\340cbc85552bff295d48901e608b48f8.php 第 233 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036539s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002223s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009463s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002480s ]
+
+[ 2014-11-02T21:59:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001773s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017420s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000709s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005377s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003074s ]
+
+[ 2014-11-02T21:59:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Customer/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `hosp_info` [ RunTime:0.006594s ]
+SQL: SELECT * FROM `hosp_info` WHERE ( `hosp_id` = 1 ) LIMIT 1   [ RunTime:0.000480s ]
+NOTIC: [8] Undefined index:  page D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 30 行.
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 33 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 34 行.
+NOTIC: [8] Undefined index:  user_name D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 45 行.
+NOTIC: [8] Undefined index:  user_org D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 46 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003649s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003752s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002292s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002074s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002478s ]
+
+[ 2014-11-02T21:59:40+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Customer/customerList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004904s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+SQL: SHOW COLUMNS FROM `hosp_info` [ RunTime:0.006156s ]
+SQL: SELECT * FROM `hosp_info` WHERE ( `hosp_id` = 1 ) LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index:  page D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\CustomerAction.class.php 第 63 行.
+
+[ 2014-11-02T21:59:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003415s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003574s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002347s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002242s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008742s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2014-11-02T21:59:40+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T21:59:42+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002825s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023901s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002380s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002273s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002079s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009350s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002617s ]
+
+[ 2014-11-02T21:59:42+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:03+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000522s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011537s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000478s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001771s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004956s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2014-11-02T22:00:03+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:04+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002850s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021263s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002161s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009477s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2014-11-02T22:00:04+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:05+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005961s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.006394s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000857s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:00:06+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001741s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000470s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001701s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004867s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002458s ]
+
+[ 2014-11-02T22:00:06+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:08+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002617s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002705s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002204s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002105s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2014-11-02T22:00:08+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:09+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002965s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005839s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004773s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000416s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:00:09+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004564s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003505s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003615s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026209s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002466s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002208s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2014-11-02T22:00:09+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:00:11+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011286s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000677s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000285s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005230s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2014-11-02T22:00:12+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:02+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013898s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000537s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001772s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005074s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2014-11-02T22:01:02+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:03+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002838s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002993s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022082s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002146s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002124s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002189s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008996s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2014-11-02T22:01:03+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:05+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005551s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004900s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000410s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:01:05+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001902s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002029s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000577s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001705s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002502s ]
+
+[ 2014-11-02T22:01:05+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:07+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002341s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002125s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002399s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009367s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2014-11-02T22:01:07+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:11+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021798s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002776s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002122s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001973s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2014-11-02T22:01:12+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:12+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021701s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002408s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002811s ]
+
+[ 2014-11-02T22:01:12+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:14+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005688s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.005042s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000407s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:01:15+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004324s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002366s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002417s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009824s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2014-11-02T22:01:15+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:18+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002848s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016279s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002151s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001992s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009446s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2014-11-02T22:01:18+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:01:55+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005898s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.004792s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000464s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:01:55+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002545s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002642s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001361s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001161s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006306s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002346s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002427s ]
+
+[ 2014-11-02T22:01:56+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:23+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001764s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012742s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000469s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001776s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003856s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2014-11-02T22:02:23+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:31+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002495s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001457s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005550s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2014-11-02T22:02:31+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:35+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined index:  user D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hospital\App\Lib\Action\IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007506s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.005438s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000401s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:02:35+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002389s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002255s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009311s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2014-11-02T22:02:35+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:37+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019106s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002271s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002315s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002466s ]
+
+[ 2014-11-02T22:02:37+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006089s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'hospital' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.005234s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `log`
+SQL: INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1') [ RunTime:0.000460s ]
+ERR: Table 'hospital.log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `log` (`user_name`,`type`,`IP`) VALUES ('hospital','1','127.0.0.1')
+
+[ 2014-11-02T22:02:40+08:00 ] 127.0.0.1 /hospital/index.php?s=/Import
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002161s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028274s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002191s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001979s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2014-11-02T22:02:41+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:02:42+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001754s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001858s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002263s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002080s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002093s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008949s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2014-11-02T22:02:42+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:24:50+08:00 ] 127.0.0.1 /hospital/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003527s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021757s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002298s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002090s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009175s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2014-11-02T22:24:50+08:00 ] ERR: (ThinkException) 非法操作:CategoryList
+[ 2014-11-02T22:24:54+08:00 ] 127.0.0.1 /hospital/index.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.006282s ]
+SQL: SELECT * FROM `admin` WHERE ( `user_name` = 'admin' ) LIMIT 1   [ RunTime:0.000406s ]
+

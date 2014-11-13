@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<include file="Public:head" />
+		<!-- 536 CSS -->
+	<link href="Public/css/offcanvas.css" rel="stylesheet">
+	<!-- 536 CSS -->
+	<link href="Public/css/536.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+	
+	<include file="Public:header" />
+
+		<div class="container">
+
+	        <div class="row row-offcanvas row-offcanvas-left">
+
+  	          <div class="col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+  	            <div class="list-group">
+  	              <a href="__URL__/index" class="list-group-item active"><i class="icon-pencil"></i>&nbsp;&nbsp;修改密码</a>
+  	            </div>
+  	          </div><!--/span-->
+
+	          <div class="col-md-10">
+	            <p class="pull-left visible-xs">
+	              <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">导航</button>
+	            </p>
+				<div class="content-wrapper-idx" style="min-height:0px">
+					<div clsss="row">
+						<form name="frmMain" id="frmMain" class="form-horizontal" role="form" method="post" action="__URL__/reset">
+
+							<div class="form-group text-center">
+							    <label for="user_passwd" class="col-sm-4 control-label">旧密码</label>
+							    <div class="col-sm-4">
+									<input type="text" class="form-control input" id="user_passwd" name="user_passwd" required>
+							    </div>
+							</div>
+							<div class="form-group text-center">
+							    <label for="password" class="col-sm-4 control-label">新密码</label>
+							    <div class="col-sm-4">
+									<input type="text" class="form-control input" id="password" name="password" required>
+							    </div>
+							</div>
+							<div class="form-group text-center">
+							    <label for="password_again" class="col-sm-4 control-label">新密码</label>
+							    <div class="col-sm-4">
+									<input type="text" class="form-control input" id="password_again" name="password_again" required>
+							    </div>
+							</div>
+							<div class="form-group text-center">
+								<button type="button" id="saveButton" name="saveButton" class="btn btn-primary">保存</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			  </div><!--/span-->
+
+	        </div><!--/row-->
+	    </div>
+
+		<include file="Public:foot" />
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="Public/js/jquery.min.js"></script>
+    <script src="Public/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Public/js/ie10-viewport-bug-workaround.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//登陆
+			$("#saveButton").click(function(){
+				var user_passwd = $("#user_passwd").val();
+				var password = $("#password").val();
+				var password_again = $("#password_again").val();
+				
+				if(!user_passwd){
+					alert("请填入密码");
+					return;
+				}
+				if(!password){
+					alert("请填入新密码");
+					return;
+				}
+				if(!password_again){
+					alert("请再次填入新密码");
+					return;
+				}
+				if(password != password_again){
+					alert("两次输入不一致");
+					return;
+				}
+				var timestamp = Math.round(new Date().getTime()/1000);				
+				var signature = hex_md5(hex_md5(user_passwd) + timestamp);
+				var post_data = "password=" + password +
+						"&timestamp=" + timestamp +
+						"&signature=" + signature;
+				
+				$.post("http://localhost/hospital/index.php?s=/Setting/reset",post_data,
+				function(data,status){
+					if(data == 1){
+						alert("修改成功");
+						history.go(-1);
+					}else if(data == -1){
+						alert("密码错误");
+						history.go(-1);
+					}else if(data == -2){
+						alert("修改超时");
+						history.go(-1);
+					}else if(data == -3){
+						alert("修改失败");
+						history.go(-1);
+					}else{alert('11')}
+				});
+
+			});
+		});
+	</script>
+  </body>
+</html>

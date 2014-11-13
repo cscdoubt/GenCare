@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<include file="Public:head" />
+	<!-- 536 CSS -->
+	<link href="Public/css/offcanvas.css" rel="stylesheet">
+	<!-- 536 CSS -->
+	<link href="Public/css/536.css" rel="stylesheet">
+  </head>
+
+  <body>
+	
+	<include file="Public:header" />
+
+    <div class="container" style="margin-top:26px;padding-left:0px;height:600px">
+				
+			<div class="col-md-2" id="sidebar" role="navigation" style="background-color:#F1F1F1;padding:0px;height:100%">
+				<div class="list-group">
+						<a href="__APP__/Import/index" class="list-group-item">数据导入</a>
+						<a href="__APP__/Query/index" class="list-group-item">医保查询</a>
+						<a href="__APP__/Customer/index" class="list-group-item active">用户管理</a>
+						<a href="__APP__/Setting/index" class="list-group-item">个人设置</a>
+				</div>
+			</div>
+			<div class="col-md-10" style="height:100%;background-color:#fff;padding-top:30px">
+					<div class="row">
+						<form name="frmMain" id="frmMain" class="form-horizontal" role="form" method="post" action="__URL__/index">
+							<div class="form-group" id="checkID">
+									<div class="col-md-4">
+										  <input type="text" class="form-control input" id="user_name" name="user_name" value="{$user_name}" placeholder="请填写用户名" style="border-radius:0px;height:40px">
+									</div>
+									<div class="col-md-4">
+										  <input type="text" class="form-control input" id="user_org" name="user_org" value="{$user_org}" placeholder="请填写单位" style="border-radius:0px;height:40px;margin-left:-20px">
+									</div>
+									<div class="col-md-2">
+											<button name="queryTodo" id="queryTodo" class="btn grn-btn" type="submit" style="height:40px;border-radius:0px;width:150px;font-size:16px;margin-left:-40px">筛选</button>
+									</div>
+									<div class="col-md-2">
+											<a type="button" class="btn red-btn" href="__APP__/Customer/customer_add" style="height:40px;border-radius:0px;width:150px;font-size:16px;margin-left:-40px;padding-top:9px">添加用户</a>
+									</div>
+							</div>
+						</form>
+						<div class="table-responsive b1" style="padding-left:20px;padding-right:30px">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>用户名</th>
+										<th>单位</th>
+										<th>电话</th>
+										<th>职务</th>
+									</tr>
+								</thead>
+								<tbody id="Customer_container">
+									
+								</tbody>
+							</table>
+						</div>
+						<input id = "count" type="hidden" value="{$count}" />
+						<div class="col-md-12 text-center" id="page"></div>
+					</div>
+		</div>		
+    </div> <!-- /container -->
+		
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!--Load JS-->
+	<include file="Public:js" />
+	<script src="Public/js/mypage.js"></script>
+
+	<script>
+	var totalcount =$("#count").val();
+	$(document).ready(function(){
+		var post_data = "user_name=" + $("#user_name").val();
+		post_data += "&user_org=" + $("#user_org").val();
+	  	$.post("__URL__/customerList",post_data,
+	  	function(data,status){
+			var objs = eval("("+data+")");
+			objs = objs['result'];
+			var content="";
+			for(var i = 0; objs != null && i < objs.length;i ++){
+				content += "<tr><td>"+objs[i]['user_name']+"</td><td>"+objs[i]['user_org']+"</td><td>"+objs[i]['office_phone']+"</td><td>"+objs[i]['user_duty']+"</td></tr>";
+			}
+			$("#Customer_container").empty().append(content);
+	  	});
+		$.mypage("page",1,totalcount,function(page){
+	    	updatePage(page);
+	 	});
+		updatePage(1);
+	 });
+     function updatePage(now){
+         $.mypage("page",now,totalcount,function(page){
+			post_data = "page="+page;
+			post_data += "&user_name=" + $("#user_name").val();
+			post_data += "&user_org=" + $("#user_org").val();
+	 	  	$.post(URL+"/customerList",post_data,
+	 	  	function(data,status){
+	 			var objs = eval("("+data+")");
+				objs = objs['result'];
+				var content="";
+				for(var i = 0; objs != null && i < objs.length;i ++){
+					content += "<tr><td>"+objs[i]['user_name']+"</td><td>"+objs[i]['user_org']+"</td><td>"+objs[i]['office_phone']+"</td><td>"+objs[i]['user_duty']+"</td></tr>";
+				}
+				$("#Customer_container").empty().append(content);
+	 	  	});
+           updatePage(page);
+         });
+     }
+	</script>
+  </body>
+</html>

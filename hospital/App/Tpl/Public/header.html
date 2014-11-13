@@ -1,0 +1,65 @@
+
+
+	<input id="menu-code-index" value="{$selected_menu}" type="hidden" />
+	
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container" style="background-image:url(Public/images/001.png);background-repeat:no-repeat;height:96px">
+        <div class="navbar-header" style="padding-top:30px;padding-left:15px">
+		<if condition="$user.user_type eq 1">
+		  <img src="Public/images/logo.png"/>
+		<elseif condition="$user.user_type eq 2"/>
+		  <a href="__APP__/Import/index"><img src="Public/images/logo.png"/></a>
+		<else/>
+		  <img src="Public/images/logo.png"/>
+		</if>
+        </div>
+        <div class="nav navbar-nav navbar-right" style="margin-right:140px;">
+		<if condition="$user.user_type eq 1">
+		  <ul class="nav navbar-nav">
+            <li data-service-index="c1"><a href="__APP__/Admin/hospital">医院管理</a></li>
+			<li data-service-index="c6"><a href="__APP__/Admin/customer">用户管理</a></li>
+			<li data-service-index="c2"><a href="__APP__/Admin/news">新闻管理</a></li>			
+            <li data-service-index="c3"><a href="__APP__/Admin/notice">通知管理</a></li>
+			<li data-service-index="c4"><a href="__APP__/Admin/suggest">反馈管理</a></li>
+			<li data-service-index="c7"><a href="__APP__/Admin/log_login">日志管理</a></li>
+			<li data-service-index="c5"><a href="__APP__/Admin/setting">个人设置</a></li>
+			<li><form class="navbar-form navbar-right" role="form" method="post" action="__APP__/Index/logout"><button type="submit" class="btn btn-primary" style="font-size:12px;margin-top:48px;border-radius:0px;padding:0px 10px;background-color:#6DBE00;border-color:#6DBE00">退出</button></form></li>
+          </ul>
+		<elseif condition="$user.user_type eq 2"/>
+		  <ul class="nav navbar-nav">
+<!--             <li data-service-index="c1"><a href="__APP__/Hospital/import">数据导入</a></li>
+			<li data-service-index="c2"><a href="__APP__/Hospital/query">医保查询</a></li>			
+            <li data-service-index="c3"><a href="__APP__/Hospital/customer">用户管理</a></li>
+			<li data-service-index="c4"><a href="__APP__/Hospital/setting">个人设置</a></li> -->
+			<li>
+				<a href="__APP__/Index/about" style="font-size:14px;width:90px;padding-right:0px;padding-top:45px">关于我们&nbsp;|&nbsp;</a>
+			</li>
+			<li>
+				<a href="__APP__/Index/contact" style="font-size:14px;width:90px;padding-right:0px;margin-left:-26px;padding-top:45px">联系我们&nbsp;|&nbsp;</a>
+			</li>
+			<li>
+				<a href="__APP__/Suggest/index" style="font-size:14px;width:80px;padding-right:0px;margin-left:-28px;padding-top:45px">意见反馈</a>
+			</li>
+			<li><a href="__APP__/Hospital/setting" style="font-size:12px;width:95px;padding-right:0px;color:#6DBE00;padding-top:45px">您好! {$user.user_name}</a></li>
+			<li><form class="navbar-form navbar-right" role="form" method="post" action="__APP__/Index/logout"><button type="submit" class="btn btn-primary" style="font-size:12px;margin-top:38px;border-radius:0px;padding:0px 10px;background-color:#6DBE00;border-color:#6DBE00;">退出</button></form></li>
+          </ul>
+		<else/>
+		  <ul class="nav navbar-nav">
+            <li data-service-index="c1" ><a href="__APP__/Index/index" >首页</a></li>
+			<if condition="$user.user_name neq null">
+			<li data-service-index="c2"><a href="__APP__/Query/index">医保查询</a></li>
+		    </if>
+			<li data-service-index="c4"><a href="__APP__/Notice/index">通知公告</a></li>
+            <li data-service-index="c3"><a href="__APP__/News/index">医保新闻</a></li>
+			<!-- <li data-service-index="c5"><a href="__APP__/Suggest/index">意见反馈</a></li> -->
+			<if condition="$user.user_name neq null">
+				<li data-service-index="c6"><a href="__APP__/Setting/index">个人设置</a></li>
+				<li><a href="__APP__/Setting/index" style="font-size:12px;width:95px;padding-right:0px;color:#6DBE00">您好! {$user.user_org}</a></li>
+				<li><form class="navbar-form navbar-right" role="form" method="post" action="__APP__/Index/logout"><button type="submit" class="btn btn-primary" style="font-size:12px;margin-top:48px;border-radius:0px;padding:0px 10px;background-color:#6DBE00;border-color:#6DBE00">退出</button></form></li>
+			</if>
+          </ul>
+		</if>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	

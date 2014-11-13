@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<include file="Public:head" />
+	
+		<!-- 536 CSS -->
+	<link href="Public/css/offcanvas.css" rel="stylesheet">
+	<!-- 536 CSS -->
+	<link href="Public/css/536.css" rel="stylesheet">
+  </head>
+
+  <body>
+	
+	<include file="Public:header" />
+
+
+    <div class="container" style="margin-top:26px;padding-left:0px;height:600px">
+			<div class="col-md-2" id="sidebar" role="navigation" style="background-color:#F1F1F1;padding:0px;height:100%">
+				<div class="list-group">
+						<a href="__APP__/Import/index" class="list-group-item">数据导入</a>
+						<a href="__APP__/Query/index" class="list-group-item active">医保查询</a>
+						<a href="__APP__/Customer/index" class="list-group-item">用户管理</a>
+						<a href="__APP__/Setting/index" class="list-group-item">个人设置</a>
+				</div>
+			</div>
+			<div class="col-md-10" style="height:100%;background-color:#fff;padding-top:30px">
+				<form role="form" method="post" action="__URL__/index">
+					<div class="row" style="margin-top:25px;margin-left:20px">
+					  <div class="col-md-11 col-md-offset-1">
+						<p style="font-size:16px">有效查询数据日期范围为:{$hospitalCurrent.earliest_date}——{$hospitalCurrent.latest_date}</p></br>
+					  </div>
+					  <div class="col-md-5 col-md-offset-1" style="margin-bottom:15px">
+						<div class="input-group">
+						  <span class="input-group-btn">
+							<button class="btn btn-default input_regular" type="button" disabled="true">患者ID号</button>
+						  </span>
+						  <input type="text" class="form-control input_regular" id="patient_id" name="patient_id" value="{$patient_id}" placeholder="请输入患者ID号">
+						</div><!-- /input-group -->
+					  </div><!-- /.col-lg-5 -->
+					  <div class="col-md-5" style="margin-bottom:15px;margin-left:-15px">
+						<div class="input-group">
+						  <span class="input-group-btn">
+							<button class="btn btn-default input_regular" type="button" disabled="true">患者身份证号</button>
+						  </span>
+						  <input type="text" class="form-control input_regular" id="id_no" name="id_no" value="{$id_no}" placeholder="请输入患者身份证号">
+						</div><!-- /input-group -->
+					  </div><!-- /.col-lg-5 -->
+					  <div class="col-md-5 col-md-offset-1">	
+						<div class="input-group">
+						  <span class="input-group-btn">
+							<button class="btn btn-default input_regular" type="button" disabled="true">入院日期</button>
+						  </span>
+						  <div class="input-group date form_date col-lg-12" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" id="datetimepicker">
+							<input type="text" class="form-control input input_regular" id="admission_date_time" name="admission_date_time" value="{$admission_date_time}" placeholder="请选择入院日期">
+							<span class="input-group-addon input_regular"><span class="glyphicon glyphicon-calendar"></span></span>
+						  </div>
+						</div><!-- /input-group -->
+					  </div><!-- /.col-lg-6 -->
+					  <div class="col-md-5"  style="margin-bottom:15px;margin-left:-15px">	
+						<div class="input-group">
+						  <span class="input-group-btn">
+							<button class="btn btn-default input_regular" type="button" disabled="true">出院日期</button>
+						  </span>
+						  <div class="input-group date form_date col-lg-12" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" id="datetimepicker1">
+							<input type="text" class="form-control input input_regular" id="discharge_date_time" name="discharge_date_time" value="{$discharge_date_time}" placeholder="请选择出院日期">
+							<span class="input-group-addon input_regular"><span class="glyphicon glyphicon-calendar"></span></span>
+						  </div>
+						</div><!-- /input-group -->
+					  </div><!-- /.col-lg-6 -->
+					  <div class="col-md-5" style="margin-left:440px">
+							<button type="submit" class="btn" style="width:170px;height:40px;border-radius:0px;background-color:#6DBE00;color:#fff">查询</button>
+							<button type="submit" class="btn" style="width:170px;height:40px;border-radius:0px;background-color:#FF5A00;color:#fff;margin-left:5px">清除</button>
+					  </div>
+					</div><!-- /.row -->
+					<input type="hidden" id="HOSP_ID" name="HOSP_ID" value="{$hospitalCurrent.hosp_id}">
+					<if condition="$chargeList">	
+					  <hr/>
+					  <volist name="chargeList" id="charge">
+					  
+					  <table class="table table-striped">
+						<tr>
+							<td colspan="3">ID号</td>
+							<td colspan="3">{$charge.patient_id}</td>
+							<td colspan="3">住院号</td>
+							<td colspan="3">{$charge.inp_no}</td>
+						</tr>
+						<tr>
+							<td colspan="3">姓名</td>
+							<td colspan="3">{$charge.name}</td>
+							<td colspan="3">身份证号</td>
+							<td colspan="3">{$charge.id_no}</td>
+						</tr>
+						<tr>
+							<td colspan="3">入院日期</td>
+							<td colspan="3">{$charge.admission_date_time}</td>
+							<td colspan="3">出院日期</td>
+							<td colspan="3">{$charge.discharge_date_time}</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="font-weight:bold">收费项目</td>
+							<td colspan="2" style="font-weight:bold">金额</td>
+							<td colspan="2" style="font-weight:bold">收费项目</td>
+							<td colspan="2" style="font-weight:bold">金额</td>
+							<td colspan="2" style="font-weight:bold">收费项目</td>
+							<td colspan="2" style="font-weight:bold">金额</td>
+						</tr>
+						<tr>
+							<td colspan="2">西药费</td>
+							<td colspan="2">{$charge.xiyf}</td>
+							<td colspan="2">检查费</td>
+							<td colspan="2">{$charge.jiancf}</td>
+							<td colspan="2">手术费</td>
+							<td colspan="2">{$charge.shousf}</td>
+						</tr>
+						<tr>
+							<td colspan="2">中成药</td>
+							<td colspan="2">{$charge.zhongchyao}</td>
+							<td colspan="2">放射费</td>
+							<td colspan="2">{$charge.fangsf}</td>
+							<td colspan="2">血费</td>
+							<td colspan="2">{$charge.xuef}</td>
+						</tr>
+						<tr>
+							<td colspan="2">中草药</td>
+							<td colspan="2">{$charge.zhongcy}</td>
+							<td colspan="2">化验费</td>
+							<td colspan="2">{$charge.huayf}</td>
+							<td colspan="2">护理费</td>
+							<td colspan="2">{$charge.hulf}</td>
+						</tr>
+						<tr>
+							<td colspan="2">诊查费</td>
+							<td colspan="2">{$charge.zhencf}</td>
+							<td colspan="2">治疗费</td>
+							<td colspan="2">{$charge.zhilf}</td>
+							<td colspan="2">床位费</td>
+							<td colspan="2">{$charge.chuangwf}</td>
+						</tr>
+						<tr>
+							<td colspan="2">材料费</td>
+							<td colspan="2">{$charge.cailf}</td>
+							<td colspan="2">饮食费</td>
+							<td colspan="2">{$charge.huosf}</td>
+							<td colspan="2">其他</td>
+							<td colspan="2">{$charge.qit}</td>
+						</tr>
+						<tr>
+							<td colspan="2">合计</td>
+							<td colspan="2">{$charge.charges}</td>
+							<td colspan="2">&nbsp</td>
+							<td colspan="2">&nbsp</td>
+							<td colspan="2">&nbsp</td>
+							<td colspan="2">&nbsp</td>
+						</tr>
+					</table>
+					  <hr/>
+					  </volist>
+						<else/>
+						  <hr/>
+						  <h4>&nbsp;&nbsp;&nbsp;{$warn}</h4>
+					</if>
+				</form>
+			</div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="Public/js/jquery.min.js"></script>
+    <script src="Public/js/bootstrap.min.js"></script>
+	<script src="Public/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script src="Public/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+	<link rel="stylesheet" type="text/css" href="Public/css/bootstrap-datetimepicker.css"/ > 
+	<script>
+		$('#datetimepicker').datetimepicker({
+			language:  'zh-CN',
+			weekStart: 1,
+			todayBtn:  1,
+			autoclose: 1,
+			todayHighlight: 1,
+			startView: 2,
+			minView: 2,
+			forceParse: 0,
+			pickerPosition: "bottom-left",
+			format: 'yyyy-mm-dd'
+		});
+		
+		$('#datetimepicker1').datetimepicker({
+			language:  'zh-CN',
+			weekStart: 1,
+			todayBtn:  1,
+			autoclose: 1,
+			todayHighlight: 1,
+			startView: 2,
+			minView: 2,
+			forceParse: 0,
+			pickerPosition: "bottom-left",
+			format: 'yyyy-mm-dd'
+		});
+		
+		$(document).ready(function() {
+			//清除按钮
+			$("#clearButton").click(function(){
+				$("#patient_id").val("");
+				$("#id_no").val("");
+				$("#admission_date_time").val("");
+				$("#discharge_date_time").val("");
+				
+			});
+		});
+	</script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Public/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
